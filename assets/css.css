@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(238, 250, 254);
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main_opcoes{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+
+.all h1{
+    font-size: 90px;
+    letter-spacing: 15px;
+    color: rgba(17, 44, 65, 0.6);
+  
+}
+
+.resp{
+    font-size: 100px;
+    
+}
+
+.xd{
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+.xd:hover{
+    border-color: blue;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.kkk {
+    color: red;
+}
+
+.kkk-green{
+    color: green;
+}
+
+
+
